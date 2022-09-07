@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="degen.css">
+    <title>HOME</title>
+</head>
+<body>
+    
+    <section>
+        
+        <Header> 
+        <!-- <H1  style="color:rgb(15, 118, 202); font-size:30px" >DEGENERATES</H1> --> 
+        </header>
+        
+        
+    </section>
+
+    <!-- navbar -->
+    <div class="navbar navbar-expand-sm sticky-top">
+        <img class = "head " src="C:\weebsite\photos\degen2.png" alt="degen">
+    </div>
+        
+    <nav class="navbar navbar-expand-sm navbar-dark justify-content-center nav-clas sticky-top">
+        
+      <img src="C:\weebsite\photos\logodegen.png" alt="Avatar" class="logoAvatar mr-auto">
+
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="home" class="nav-item nav-link" >Home</a></li>
+            <li class="nav-item">
+            <div class = "chatdropdown ">            <!--dropdown-->
+                <button class="dropbtn nav-link">Chatting&#9662;
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="">world chat</a>
+                    <a href="">ranchat</a>
+                    <a href="">groups</a>
+                    <a href="">club</a>
+                </div>
+            </div>
+            </li>
+            <li class="nav-item"><a href="Shorts" class="nav-item nav-link">Shorts</a></li>
+            <li class="nav-item"><a href="Games" class="nav-item nav-link">Games</a></li>
+            <li class="nav-item"><a href="Streaming" class="nav-item nav-link">Streaming</a></li>
+            <li class="nav-item">
+                <form class="form-inline ml-auto ">
+                <input class="form-control mr-sm-2 sbar " type="search" placeholder="Search &#x2315;" aria-label="Search">
+                </form>
+            </li>
+
+        </ul>
+
+        <!-- login form  ------------------------------------------------------------------------------------->
+        <div class = "ml-auto">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+          <div id="id01" class="login">
+            
+            <form class="login-content animate" action="/action_page.php" method="post">
+              <div class="loginimgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="loginclose" title="Close Modal">&times;</span>
+                <img src="img_avatar2.png" alt="Avatar" class="loginavatar">
+              </div>
+
+              <div class="logincontainer">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+
+              <div class="logincontainer" style="background-color:#292d33">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="logincancelbtn">Cancel</button>
+                <span class="loginpsw">Forgot <a href="#">password?</a></span>
+              </div>
+            </form>
+          </div>
+
+          <!-- signup form  --------------------------------------------------------------------------------------------->
+          <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+
+            <div id="id02" class="signup">
+              <span onclick="document.getElementById('id02').style.display='none'" class="signupclose" title="Close Modal">&times;</span>
+              <form class="signup-content" action="/action_page.php">
+                <div class="signupcontainer">
+                  <h1>Sign Up</h1>
+                  <p>Please fill in this form to create an account.</p>
+                  <hr>
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" required>
+
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                  
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                  </label>
+
+                  <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                  <div class="signupclearfix">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'" class="signupcancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+    </nav>
+    
+    
+
+      <!-- close navbar -->
+
+    <section>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="C:\weebsite\photos\505151.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="C:\weebsite\photos\969999.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="C:\weebsite\photos\BGIvsUC.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 4</div>
+              <img src="C:\weebsite\photos\030ac9a77354be9b0de4ee2ade92bfc8.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+          
+          
+            <!-- Next and previous buttons -->
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- <button class="btn"><font size="8">&#8250</font></button> -->
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div> 
+    </section>
+
+
+    <section>
+      <div class="chat2">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div class="chat-container">
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+      </div>
+    </section>
+
+    
+    <div class="postContainer">
+    <p style="color:aliceblue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eaque cumque doloremque id et tempora, ipsa optio fugit veritatis corrupti veniam obcaecati voluptatibus minima maxime dignissimos ducimus quaerat nemo asperiores.
+    Inventore ex repellat rem quia numquam consequuntur veniam dicta odit, earum ipsum consequatur ipsam nostrum molestiae atque quo eos hic. Consequuntur fugiat sapiente corporis quidem architecto delectus vitae sunt accusantium!
+    Eum mollitia, debitis cupiditate in odit expedita delectus quaerat eveniet earum. Optio delectus numquam, eveniet blanditiis, amet nostrum omnis impedit consequuntur in totam iure itaque odio, illum sapiente reprehenderit. Veritatis?
+    Ipsam quia eveniet vitae repellendus minus laboriosam? Magni odit quasi accusantium maxime, laudantium consequatur quos pariatur ab dolorum delectus ducimus asperiores dolore hic officiis recusandae eum blanditiis fugit quas similique.
+    Obcaecati mollitia ut distinctio soluta nobis dignissimos ea saepe expedita, omnis quis ipsam nostrum voluptatem dolore esse repudiandae error vel numquam sed inventore, perspiciatis eum. Ratione est quo et iste!
+    Aliquam recusandae ad adipisci repudiandae reprehenderit. Repellat dolorem minus et sunt repellendus laborum impedit sint ex pariatur vero, ipsam temporibus quos earum deserunt illum atque porro rem ducimus adipisci eum.
+    In iusto magnam minus optio. A aliquam libero quia modi eius quo nam necessitatibus, consequuntur, reprehenderit nostrum consequatur suscipit explicabo placeat magnam non. Odit officiis suscipit commodi voluptatum cupiditate? Autem.
+    Saepe laborum cumque vel illo ex eaque harum, cupiditate sed fugit expedita earum molestias eos a ratione itaque magni nihil pariatur reiciendis maiores sunt dicta aut. Suscipit quibusdam blanditiis laborum?
+    Est voluptatum repellendus sint commodi ducimus veritatis dolorem, consequuntur iusto excepturi et amet quisquam incidunt quod vel maiores quibusdam dolores? Quas deserunt saepe quisquam modi ad quos. Aut, id tempore!
+    Officiis dolorum, deserunt autem fugit molestias temporibus ullam ipsum exercitationem deleniti aut, repellendus beatae officia quam possimus aliquid eius! Quam eius error consequuntur eligendi expedita voluptas quaerat ab molestiae libero.
+    Error doloribus voluptatum assumenda quo aspernatur sint est, aliquid nulla voluptate laudantium, recusandae aut, molestiae incidunt pariatur iste. Et aut enim ex minus dicta. Cupiditate accusantium aliquam necessitatibus soluta ea.
+    Laboriosam tenetur delectus minus ipsam quam repellat quas, natus quae nam earum repudiandae blanditiis repellendus cumque, molestias cupiditate fuga maxime consequatur illo inventore mollitia saepe nihil velit, excepturi omnis. Quaerat?
+    Consectetur blanditiis quo hic. Earum labore perspiciatis corrupti delectus id atque quod eum quaerat amet incidunt sequi, esse quis laboriosam accusantium voluptas voluptatum magnam enim, quo unde quidem consectetur? Architecto.
+    Natus repellendus dolores amet earum quo ullam id a, suscipit laborum maiores nulla tempora harum accusantium in corrupti iusto tenetur animi! Quae incidunt deserunt magni pariatur vero recusandae corporis. Atque!
+    Velit atque vero rerum vel placeat incidunt delectus, voluptatum voluptas esse at aperiam impedit illo distinctio architecto beatae qui assumenda hic! Consequuntur, quidem! Perspiciatis quia nobis, cum libero quidem labore!
+    Perspiciatis dolorem et reiciendis aut id, error eligendi tempora dolor rem laboriosam doloremque inventore a quidem quaerat exercitationem assumenda ullam in distinctio maiores recusandae! Numquam dolores facere aspernatur quas adipisci!
+    Praesentium, odit at vel culpa dicta consequuntur doloribus voluptatum beatae veniam quod nostrum qui corrupti tempora debitis architecto quam dolor recusandae nisi voluptatibus reiciendis nesciunt aspernatur, adipisci iste accusantium. Iste?
+    Quia tempora tempore repellat beatae voluptate ipsa incidunt aut provident amet hic, perspiciatis aperiam nam rem architecto officiis. Dolorum, cupiditate voluptas magni fuga dolor esse eius quod animi commodi sed!
+    Eligendi enim quaerat repudiandae sint nemo dicta aliquid quidem ad aliquam tempora molestiae iste quod voluptatum, eveniet sapiente fugit consequuntur dignissimos perferendis cum, expedita corrupti, soluta consequatur laborum consectetur. Dolorem.
+    Ullam aut officia dicta rem. Rem molestiae earum consequatur repellendus autem obcaecati expedita error similique praesentium, deserunt fugit sint aperiam veniam nulla atque culpa. Odit facere hic quae perferendis eius. Lorem, ipsum dolor sit amet 
+    consectetur adipisicing elit. Eaque autem suscipit eum. Inventore aspernatur veniam officiis adipisci numquam neque quidem possimus error distinctio provident quis laudantium culpa fuga, facilis doloribus. Lorem, ipsum dolor sit amet consectetur 
+    adipisicing elit. In, fuga asperiores. Dignissimos alias quod provident eaque laborum aliquid ex dolorem perspiciatis, dicta blanditiis asperiores excepturi obcaecati deleniti dolorum quisquam. Quidem!
+    Fugit veniam vero voluptates tenetur, voluptas placeat, ipsa iusto necessitatibus aut quaerat quas cumque fugiat dolor doloribus atque sequi quisquam dolorum enim alias vitae. Velit sed possimus esse aliquam repellendus.
+    Fugit harum sit alias illo assumenda minus magnam quasi et, debitis reiciendis maxime, impedit dolorum sed recusandae nihil voluptatibus quas voluptatum incidunt? Maxime nesciunt exercitationem quos cupiditate aliquid veniam. Earum.
+    Illo praesentium neque dicta omnis maxime quibusdam error excepturi. Perspiciatis tempore provident, ipsa ut blanditiis, fugiat obcaecati dicta dolor atque, tempora quas. Beatae, perspiciatis! Deserunt inventore maxime modi asperiores eligendi.
+    Ea modi dolore deserunt, eum vero quod voluptates unde commodi molestiae est, doloremque tempora aliquid laboriosam! Delectus voluptates ipsum ex, maxime velit excepturi id expedita quia itaque! Temporibus, esse earum.</p>
+  </div>
+  
+  
+    
+
+    
+    <script src="degenjv.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</body>
+</html>
